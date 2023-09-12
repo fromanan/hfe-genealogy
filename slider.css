@@ -1,0 +1,1 @@
+*{box-sizing:border-box}.img-comp-container{position:relative;height:600px}.img-comp-img{position:absolute;width:auto;height:auto;overflow:hidden}.img-comp-img img{display:block;vertical-align:middle}.img-comp-slider{position:absolute;z-index:9;cursor:ew-resize;width:40px;height:40px;background-color:#444;opacity:.3;border-radius:50%}
