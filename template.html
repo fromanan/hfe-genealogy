@@ -1,19 +1,12 @@
-<head>
-    <link rel="preload" href="https://raw.githubusercontent.com/fromanan/hfe-genealogy/main/slider.css" as="style">
-    <link rel="preload" href="https://raw.githubusercontent.com/fromanan/hfe-genealogy/main/slider.js" as="script" type="text/javascript">
-</head>
+<!DOCTYPE html>
+<html>
+  <body style="display:flex;justify-content:center;margin:0;overflow:hidden;">
+    <script defer src="https://unpkg.com/img-comparison-slider@7/dist/index.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/img-comparison-slider@7/dist/styles.css"/>
 
-<body style="margin:0;overflow:hidden;">
-  <link rel="stylesheet" href="https://raw.githubusercontent.com/fromanan/hfe-genealogy/main/slider.css">
-  <script type="text/javascript" src="https://raw.githubusercontent.com/fromanan/hfe-genealogy/main/slider.js"></script>
-  <div class="img-comp-container">
-    <div class="img-comp-img">
-      <img src="https://drive.google.com/uc?id=1va6grklV-Z57Y_Ej0TPcPm4TUmxGTwAY" width="375" height="600">
-    </div>
-    <div class="img-comp-img img-comp-overlay">
-      <img src="https://drive.google.com/uc?id=1ojg0jb4WIjq5nzoJCB8dyHh3zv7dGOCW" width="375" height="600">
-    </div>
-  </div>
-
-  <script>initComparisons();</script>
-</body>
+    <img-comparison-slider>
+        <img slot="first" src="https://i.imgur.com/71BTidI.jpg" style="max-width:100%;height:600px;" />
+        <img slot="second" src="https://i.imgur.com/Q8tNrtJ.jpg" style="max-width:100%;height:600px;" />
+    </img-comparison-slider>
+  </body>
+</html>
